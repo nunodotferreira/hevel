@@ -1,2 +1,2 @@
-# hevel
-Module Routine for Frontend files integrating Laravel with Headstart (strait forward)
+# Hevel
+Module Routine for Frontend files integrating Headstart with Laravel  (strait forward)
