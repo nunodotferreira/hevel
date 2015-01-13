@@ -1,0 +1,29 @@
+{
+  "name": "hevel",
+  "version": "0.0.1",
+  "description": "Prepare Headstart files to Laravel",
+  "author": {
+    "name": "Nuno Ferreira",
+    "email": "wcleack@hotmail.com",
+    "url": "http://www.incentea-mi.pt"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.26"
+  },
+  "devDependencies": {
+    "gulp-rename": "^1.2.0",
+    "gulp-replace": "^0.5.0",
+    "gulp-file": "^0.2.0",
+    "del": "^1.1.1",
+    "gulp-util": "^3.0.2",
+    "gulp": "^3.8.10",
+    "chalk": "^0.5.1",
+    "gulp-insert": "^0.4.0",
+    "gulp-tap": "^0.1.3",
+    "gulp-concat": "^2.4.3",
+    "fs": "0.0.2",
+    "run-sequence": "^1.0.2",
+    "log-writer": "0.0.4"
+  }
+}
