@@ -16,9 +16,11 @@ creating Laravel structure from frontend exporting.
 
 Move this inject parts to your individual pages.
 
+```
 <!-- inject:css --><!-- endinject -->
 
 <!-- inject:js --><!-- endinject -->
+```
 
 Can't have targeted individual pages like this
 {{#equal templateName 'your-page.html'}}, because the 'assemble_templates' is gona be false for production.
@@ -29,7 +31,7 @@ After this, test your frontend to see if works fine!
 ### Changing the 'config.json' file
 
 My 'config.json', minifyHTML to false, w3c to false, assemble_templates to false, combineMediaQueries to false.
-
+```
 {
 	"browser": "Google Chrome",
 	"editor": "Sublime Text",
@@ -57,7 +59,7 @@ My 'config.json', minifyHTML to false, w3c to false, assemble_templates to false
 	"template_asset_prefix": "",
 	"revisionCaching":false
 }
-
+```
 
 ### Make the production of all pages and assets.
 
@@ -65,7 +67,7 @@ headstart build --production
 
 
 ### Final structure after export production
-
+```
 export
 	------assets
 			-----css
@@ -76,7 +78,7 @@ export
 	------layout
 	index.html
 	...other html files and misc
-	
+```
 	
 Copy contents from 'export' folder to 'hevel_files' folder inside your hevel installation!
 
