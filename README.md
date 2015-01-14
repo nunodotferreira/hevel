@@ -1,6 +1,8 @@
 # [HEVEL](website-url)
-Module Routine for Frontend files, integrating [Headstart](http://headstart.io/) with [Laravel](http://laravel.com/) (strait forward),
+Module Routine for Frontend files, integrating [Headstart](http://headstart.io/) with [Laravel](http://laravel.com/),
 creating Laravel structure from frontend exporting.
+
+This is a strait forward method and very simple.
 
 
 ## What this do
