@@ -90,7 +90,7 @@ function string_src(filename, string) {
 function newRouteLineHtml(string){
     
     var contentsLineHtml = ['',
-        '       case \''+string+'\': return Redirect::to(\''+string+'\')',
+        '       case \''+string+'\': return Redirect::to(\''+string+'\');',
         '           break;',
         ''].join('\n');
 
